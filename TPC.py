@@ -392,7 +392,7 @@ class Fir_stage:
         pop_num = random.randrange(0,self.require_select)
         if np.random.rand() < self.CROSS_RATE:
             while pop_num == cross_num:
-                pop_num = random.randrange(0,self.require_select)  # ａｖｏｉｄ　ｆｕｃｋ　ｙｏｕｒｓｅｌｆ
+                pop_num = random.randrange(0,self.require_select)  # ａｖｏｉｄ　find　ｙｏｕｒｓｅｌｆ
             while (cross_points_1 >= cross_points_2) or abs(cross_points_2 - cross_points_1)<3 :
                 cross_points_1 = np.random.randint(0, self.DNA_SIZE)  # choose crossover points
                 cross_points_2 = np.random.randint(0, self.DNA_SIZE+1)  # choose crossover points
@@ -765,7 +765,7 @@ class Sec_Stage:
         pop_num = random.randrange(0, self.require_select)
         if np.random.rand() < self.CROSS_RATE:
             while pop_num == cross_num:
-                pop_num = random.randrange(0, self.require_select)  # ａｖｏｉｄ　ｆｕｃｋ　ｙｏｕｒｓｅｌｆ
+                pop_num = random.randrange(0, self.require_select)  # ａｖｏｉｄ　find　ｙｏｕｒｓｅｌｆ
             while (cross_points_1 >= cross_points_2) or abs(cross_points_2 - cross_points_1) < 3:
                 cross_points_1 = np.random.randint(0, self.DNA_SIZE)  # choose crossover points
                 cross_points_2 = np.random.randint(0, self.DNA_SIZE + 1)  # choose crossover points
