@@ -30,7 +30,7 @@ The key contributions of the paper include:
 
 ## 📊 Architecture
 
-![TPC Flowchart](images/flow_chart.png)
+![TPC Flowchart](image/flow_chart.png)
 
 *Figure: Two-stage GA + SVM framework for imbalanced classification*
 
