@@ -247,8 +247,4 @@ python TPC.py
 * GA parameters affect performance
 * Dataset preprocessing required
 
----
 
-## 👨‍💻 Author
-
-* Wen-Yen(Hank) Hsu
